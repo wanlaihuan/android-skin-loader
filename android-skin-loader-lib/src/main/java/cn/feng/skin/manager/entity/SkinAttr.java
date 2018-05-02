@@ -30,7 +30,6 @@ public abstract class SkinAttr {
 	/**
 	 * Use to apply view with new TypedValue
 	 * @param view
-	 * @param tv
 	 */
 	public abstract void apply(View view);
 

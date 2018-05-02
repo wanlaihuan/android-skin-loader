@@ -1,8 +1,9 @@
 package cn.feng.skin.manager.listener;
 
+import cn.feng.skin.manager.loader.SkinInflaterFactory;
+
 public interface ISkinLoader {
-	void attach(ISkinUpdate observer);
-	void detach(ISkinUpdate observer);
+	void attach(SkinInflaterFactory observer);
+	void detach(SkinInflaterFactory observer);
 	void notifySkinUpdate();
-//	void notifySkinDefault();
 }
